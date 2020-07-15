@@ -1,0 +1,161 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<style>
+    .btncreate {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        color: white;
+    }
+</style>
+<script>
+    function validateCreate() {
+        var x = document.forms["myForm"]["title"].value;
+        var y = document.forms["myForm"]["mota"].value;
+        var z = document.forms["myForm"]["cate"].value;
+        var g = document.forms["myForm"]["author"].value;
+        var h = document.forms["myForm"]["pub"].value;
+        var j = document.forms["myForm"]["gia"].value;
+        var k = document.forms["myForm"]["SL"].value;
+        var l = document.forms["myForm"]["trangthai"].value;
+
+        if (x == "" || y == "" || z == "" || g == "" || h == "" || j == "" || k == "" || l == "") {
+            alert("Vui lòng điền đầy đủ thông tin sách trước khi tạo !");
+            return false;
+        }
+    }
+
+</script>
+<h4 style="font-family:serif">New Book</h4>
+<hr />
+
+<form action="/Admin/AdminCRUD/tao" method="post" name="myForm">
+    <div class="context">
+        <div class="text_left">
+            <p style="font-weight:bold;font-size:20px;">Book Information</p>
+            <br />
+
+
+            <table class="table_A">
+                <tr>
+                    <td>
+
+                        <input type="text" name="title" placeholder="Name">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><input type="text" name="mota" placeholder="Describe" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.DropDownList("cate", (IEnumerable<SelectListItem>)ViewBag.CategoryList, "Select the category", new { @class = "dropdown" })
+                    </td>
+                </tr>
+                <tr>
+                    <td> @Html.DropDownList("author", (IEnumerable<SelectListItem>)ViewBag.AuthorList, "Select the author", new { @class = "dropdown" })</td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>@Html.DropDownList("pub", (IEnumerable<SelectListItem>)ViewBag.PubList, "Select the Publishers", new { @class = "dropdown" })</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="gia" placeholder="Price" /></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="SL" placeholder="Amount" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="dropdown" name="trangthai">
+                            <option value="Dang ban">Selling</option>
+                            <option value="khong ban">Stop</option>
+                            <option value="trung bay">Exhibition</option>
+                        </select>
+                    </td>
+
+                </tr>
+
+            </table>
+            <br />
+           
+            <div>
+                <a href="@Url.Action("Index","AdminCRUD")" class="btncreate"> Back</a>
+
+                <input type="submit" class="btncreate" onclick="return validateCreate()" style="width:130px; background-color:#17aa67" value="Create" />
+
+
+
+            </div>
+        </div>
+        <div class="text_right">
+
+            <img id="pictureUpload" width=60% height="250px" />
+            @section upload
+  {S
+                <script>
+                    $(function () {
+                        //đăng ký sự kiện click nút btnUpload
+                        $('#btnUpload').click(function () {
+                            $('#fileUpload').trigger('click');
+
+                        });
+                        // Bắt sự kiện change data của file Upload
+                        $('#fileUpload').change(function () {
+                            //Kiểm tra trình duyệt có hỗ trợ FormData object không.
+                            if (window.FormData !== undefined) {
+                                //lấy dữ liệu trên fileUpload
+                                var fileUpload = $("#fileUpload").get(0);
+                                var files = fileUpload.files;
+                                //tạo đối tượng formdata
+                                var formData = new FormData();
+                                //đưa dữ liệu vào form
+                                formData.append('file', files[0]);
+                                $.ajax(
+                                    {
+                                        type: 'POST',
+                                        url: '/AdminCRUD/ProcessUpload',
+                                        contentType: false,
+                                        processData: false,
+                                        data: formData,
+                                        success: function (urlImage) {
+                                            $('#pictureUpload').attr('src', urlImage);
+                                            $('#picture').val(urlImage);
+
+                                        },
+                                        error: function (err) {
+                                            alert('co loi khi upload:' + err.statusText);
+                                        }
+                                    });
+
+                            }
+                        });
+                    });
+                </script>
+
+            }
+            <br />
+            <br />
+            <div class="from-inline">
+                <input type="text" name="picture" id="picture" style="display:none;" />
+                <input type="file" id="fileUpload" name="fileUpload" style="display:none;" />
+                <input type="button" id="btnUpload" value="Select Picture" class="btn_Choose" />
+            </div>
+        </div>
+
+    </div>
+</form>
+
+
+

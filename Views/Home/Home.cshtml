@@ -1,0 +1,34 @@
+﻿@using BookManage.Models
+@model List<Book>
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<link href="~/Content/ContentBook.css" rel="stylesheet" />
+
+
+
+
+<div class="book-content">
+    @{ int i = 0;}
+    @foreach (var item in Model)
+    {
+      
+        <a href="@Url.Action("ChitietBook", "Chitiet", new { BookID = item.BookId })" style="text-decoration:none;">
+            <div id="sanpham">
+                <div id="anhbia"><img src="~/Images/@item.ImgUrl" /></div>
+                <div id="tensach">@item.Title</div>
+                <div id="tieude">@item.Author.AuthorName</div>
+                <div class="price">
+                    <a class="agia">$@item.Price.00</a><a onclick="DatHang(@item.BookId)" id="icon"><i class="fa fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </a>
+    
+    }
+</div>
+<div class="special">
+   
+    @Html.Action("BookSpecialParialView", "Home")
+</div>

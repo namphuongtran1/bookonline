@@ -1,0 +1,71 @@
+﻿#sanpham img{
+    width:100%;
+    height:165px;
+}
+#sanpham {
+    border: solid 1px rgb(190, 190, 190);
+    width: 16%;
+    display: inline-block;
+    padding: 20px 0px 0px 0px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.book-content{
+    width:100%;
+    height:100%;
+}
+#tensach {
+    padding-top:20px;
+    font-size: 11px;
+    text-align: center;
+    font-family: Lucida Sans Unicode;
+    font-weight:bold;
+    color:black;
+}
+#tieude{
+    color:gray;
+    padding:15px 0px;
+    font-size:11px;
+    text-align:center;
+}
+.agia {
+    font-family: Lucida Sans Unicode;
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 10px 0px;
+    border-top: solid 1px rgb(190, 190, 190);
+    font-weight: bold;
+}
+/*#agia:hover {
+transition:0.5s;
+background-color:grey;
+cursor:pointer;
+}*/
+/*a:hover{
+    background-color:red;
+}*/
+
+#icon {
+    text-align: center;
+    border-top: solid 1px rgb(190, 190, 190);
+    border-left: solid 1px rgb(190, 190, 190);
+    padding: 10px 0px;
+    background-color: #eeeeee;
+    width: 30%;
+    display: inline-block;
+}
+.price:hover a {
+    transition:0.5s;
+    cursor:pointer;
+    background-color: rgb(190, 190, 190);
+}
+.price:hover #icon {
+    transition: 0.5s;
+    cursor: pointer;
+    border-top: solid 1px red;
+    border-left: solid 1px red;
+    background-color: red;
+}

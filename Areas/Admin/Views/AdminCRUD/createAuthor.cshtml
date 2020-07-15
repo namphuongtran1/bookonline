@@ -1,0 +1,121 @@
+﻿
+@{
+    ViewBag.Title = "createAuthor";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<link href="~/Content/CreateAll.css" rel="stylesheet" />
+<style>
+    .frmauthor {
+        font-family: serif;
+    }
+
+    .btncreate {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        color: white;
+    }
+
+    table {
+        text-align: center;
+    }
+
+    th {
+        color: white;
+        background-color: #17aa67;
+    }
+</style>
+<script>
+    function validateCreate() {
+        var x = document.forms["myForm"]["AuthorName"].value;
+        var y = document.forms["myForm"]["History"].value;
+
+        if (x == "" || y == "") {
+            alert("Vui lòng điền đầy đủ thông tin sách trước khi tạo !");
+            return false;
+        }
+    }
+
+</script>
+<h4 style="font-family:serif">Author Manager</h4>
+<hr />
+<form action="/Admin/AdminCRUD/createAuthor" method="post" name="myForm">
+    <form class="frmauthor">
+        <div class="context">
+            <div class="text_left_author">
+                <p style="font-weight:bold;font-size:20px; font-family:serif"> Author Information</p>
+                <table class="table_Author">
+                    <tr>
+                        <td>
+
+                            <input type="text" name="AuthorName" placeholder="AuthorName">
+
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="History" placeholder="History" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="Adress" placeholder="Adress" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="SDT" placeholder="Phone Number" /></td>
+                    </tr>
+                </table>
+                <br />
+
+
+
+
+                <div>
+                    <a href="@Url.Action("Index","AdminCRUD")" class="btncreate"> Back</a>
+
+                    <input type="submit" class="btncreate" onclick="return validateCreate()" style="width:130px; background-color:#17aa67" value="Create" />
+
+
+
+                </div>
+            </div>
+
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name Author</th>
+                        <th>History</th>
+
+                        <th>PhoneNumber</th>
+                        <th>Adress</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ViewBag.sklist)
+                    {
+                        <tr>
+
+                            <td>@item.AuthorName</td>
+                            <td>@item.History</td>
+                            <td>@item.SDT</td>
+                            <td>@item.Adress</td>
+
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+            <div class="text_right_author">
+
+            </div>
+        </div>
+    </form>
+
+
+
+    </form>

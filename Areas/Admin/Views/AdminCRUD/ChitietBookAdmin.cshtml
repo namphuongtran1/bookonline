@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "ChitietBookAdmin";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<link href="~/Content/DetailAd.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<div class="title" style="font-size:30px; padding:20px 0px;display:inline-block">
+    <a style="font-family:Georgia" class="navhead" href="@Url.Action("Index","AdminCRUD")"> HOME </a> <i style="color:#4e9df7" class="material-icons">navigate_next</i><a>@Model.Title</a>
+    <hr>
+</div>
+<div class="baotrum">
+    <div class="anh"><img src="~/Images/@Model.ImgUrl" /></div>
+    <div class="noidung">
+        <div id="tenbook">@Model.Title</div>
+        <div class="price">
+            $@Model.Price.00
+        </div>
+        <div class="nameauthor">
+            <label for="">Author:   </label><label id="lbNXB" for="" style="font-size:larger"> @Model.Author.AuthorName</label>
+            <label for="">Publisher:   </label><label for="" style="font-size:larger"> @Model.Publisher.Name</label>
+        </div>
+
+        <div class="status">
+            @if (Model.IsActive == "True")
+            {
+                <a id="activetrue">Active</a>
+
+            }
+            else if (Model.IsActive == "False")
+            {
+
+                <a id="activefalse">Cancel</a>
+            }
+        </div>
+        <div id="tieudebook">
+            @Model.Summary
+        </div>
+        <div class="quanty">
+            <label id="quantity">Quantity</label><input type="number" name="1" id="qty" min="1" max="@Model.Quantity">
+        </div>
+        <div class="buttom">
+            <a href="" class="btnbottom" id="btn-right">Go To Home</a>  <a href="" id="btn-left" class="btnbottom">Go To Cart</a>
+        </div>
+
+    </div>
+</div>
+
+
+
+

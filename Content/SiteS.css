@@ -1,0 +1,102 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*trang create*/
+.p_A {
+    padding: 2%;
+}
+
+.context {
+    background-color: white;
+    padding: 2%;
+    width: 80%;
+    height: 550px;
+}
+
+    .context p {
+        background-color: white;
+    }
+
+.text_left {
+    float: left;
+    width: 50%;
+}
+
+.text_right {
+    margin-top: 13%;
+    float: right;
+    width: 50%;
+}
+
+.table_A {
+    width: 95%;
+    height: 350px;
+}
+
+    .table_A tr td {
+        width: auto;
+    }
+
+
+        .table_A tr td input {
+            width: 100%;
+        }
+
+
+input {
+    font-size: 14px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #CFCFCF;
+}
+
+    input:focus {
+        outline: none;
+    }
+
+
+.dropdown {
+    color: #696969;
+    font-size: 14px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #CFCFCF;
+}
+
+
+.btn_back {
+    border: none;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    width: 100px;
+    height: 35px;
+}
+
+.btn_Tao {
+    border: none;
+    background-color: green;
+    border-radius: 3px;
+    color: white;
+    width: 100px;
+    height: 35px;
+}
+
+    .btn_Tao:hover {
+        cursor: pointer;
+    }
+
+.btn_Choose {
+    border-radius: 3px;
+    border: 2px solid blue;
+    color: blue;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+}

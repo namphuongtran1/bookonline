@@ -1,0 +1,370 @@
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\BookManage.dll.config
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\BookManage.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\BookManage.pdb
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\csc.exe
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\csc.exe.config
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\csc.rsp
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\csi.exe
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\csi.rsp
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\System.AppContext.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\vbc.exe
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\vbc.exe.config
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\vbc.rsp
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\VBCSCompiler.exe
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\Antlr3.Runtime.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\Newtonsoft.Json.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.Helpers.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.Mvc.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.Optimization.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.Razor.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.WebPages.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.WebPages.Razor.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\WebGrease.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.Helpers.xml
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.Mvc.xml
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.Optimization.xml
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.Razor.xml
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.WebPages.xml
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Web.WebPages.Razor.xml
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\Newtonsoft.Json.xml
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\Antlr3.Runtime.pdb
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\obj\Debug\BookManage.csprojAssemblyReference.cache
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\obj\Debug\BookManage.csproj.CoreCompileInputs.cache
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\obj\Debug\BookManage.csproj.CopyComplete
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\obj\Debug\BookManage.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\obj\Debug\BookManage.pdb
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\EntityFramework.dll
+C:\Users\Phuc NE\Desktop\Homework\BookManage\BookManage\bin\EntityFramework.xml
+D:\ASM\BookManage\BookManage\bin\BookManage.dll.config
+D:\ASM\BookManage\BookManage\bin\BookManage.dll
+D:\ASM\BookManage\BookManage\bin\BookManage.pdb
+D:\ASM\BookManage\BookManage\bin\roslyn\csc.exe
+D:\ASM\BookManage\BookManage\bin\roslyn\csc.exe.config
+D:\ASM\BookManage\BookManage\bin\roslyn\csc.rsp
+D:\ASM\BookManage\BookManage\bin\roslyn\csi.exe
+D:\ASM\BookManage\BookManage\bin\roslyn\csi.rsp
+D:\ASM\BookManage\BookManage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ASM\BookManage\BookManage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ASM\BookManage\BookManage\bin\roslyn\System.AppContext.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\System.Collections.Immutable.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\System.IO.FileSystem.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\System.Reflection.Metadata.dll
+D:\ASM\BookManage\BookManage\bin\roslyn\vbc.exe
+D:\ASM\BookManage\BookManage\bin\roslyn\vbc.exe.config
+D:\ASM\BookManage\BookManage\bin\roslyn\vbc.rsp
+D:\ASM\BookManage\BookManage\bin\roslyn\VBCSCompiler.exe
+D:\ASM\BookManage\BookManage\bin\roslyn\VBCSCompiler.exe.config
+D:\ASM\BookManage\BookManage\bin\Antlr3.Runtime.dll
+D:\ASM\BookManage\BookManage\bin\EntityFramework.dll
+D:\ASM\BookManage\BookManage\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\ASM\BookManage\BookManage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ASM\BookManage\BookManage\bin\Microsoft.Web.Infrastructure.dll
+D:\ASM\BookManage\BookManage\bin\Newtonsoft.Json.dll
+D:\ASM\BookManage\BookManage\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ASM\BookManage\BookManage\bin\System.Web.Helpers.dll
+D:\ASM\BookManage\BookManage\bin\System.Web.Mvc.dll
+D:\ASM\BookManage\BookManage\bin\System.Web.Optimization.dll
+D:\ASM\BookManage\BookManage\bin\System.Web.Razor.dll
+D:\ASM\BookManage\BookManage\bin\System.Web.WebPages.Deployment.dll
+D:\ASM\BookManage\BookManage\bin\System.Web.WebPages.dll
+D:\ASM\BookManage\BookManage\bin\System.Web.WebPages.Razor.dll
+D:\ASM\BookManage\BookManage\bin\WebGrease.dll
+D:\ASM\BookManage\BookManage\bin\EntityFramework.xml
+D:\ASM\BookManage\BookManage\bin\System.Web.Helpers.xml
+D:\ASM\BookManage\BookManage\bin\System.Web.Mvc.xml
+D:\ASM\BookManage\BookManage\bin\System.Web.Optimization.xml
+D:\ASM\BookManage\BookManage\bin\System.Web.Razor.xml
+D:\ASM\BookManage\BookManage\bin\System.Web.WebPages.xml
+D:\ASM\BookManage\BookManage\bin\System.Web.WebPages.Deployment.xml
+D:\ASM\BookManage\BookManage\bin\System.Web.WebPages.Razor.xml
+D:\ASM\BookManage\BookManage\bin\Newtonsoft.Json.xml
+D:\ASM\BookManage\BookManage\bin\Antlr3.Runtime.pdb
+D:\ASM\BookManage\BookManage\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ASM\BookManage\BookManage\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\ASM\BookManage\BookManage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ASM\BookManage\BookManage\obj\Debug\BookManage.csprojAssemblyReference.cache
+D:\ASM\BookManage\BookManage\obj\Debug\BookManage.csproj.CoreCompileInputs.cache
+D:\ASM\BookManage\BookManage\obj\Debug\BookManage.csproj.CopyComplete
+D:\ASM\BookManage\BookManage\obj\Debug\BookManage.dll
+D:\ASM\BookManage\BookManage\obj\Debug\BookManage.pdb
+D:\ASM\BookManage\BookManage\bin\PagedList.dll
+D:\ASM\BookManage\BookManage\bin\PagedList.Mvc.dll
+D:\ASM\BookManage\BookManage\bin\PagedList.xml
+D:\ASM\BookManage\BookManage\bin\PagedList.Mvc.xml
+D:\ASM\BookManage\BookManage\bin\System.Linq.Dynamic.dll
+D:\ASM\BookManage\BookManage\bin\EntityFramework.SqlServer.dll
+D:\ASM\BookManage\BookManage\bin\EntityFramework.SqlServer.xml
+D:\ASM\Backup\BookManage\BookManage\bin\BookManage.dll.config
+D:\ASM\Backup\BookManage\BookManage\bin\BookManage.dll
+D:\ASM\Backup\BookManage\BookManage\bin\BookManage.pdb
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\csc.exe
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\csc.exe.config
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\csc.rsp
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\csi.exe
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\csi.rsp
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\System.AppContext.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\System.Collections.Immutable.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\System.IO.FileSystem.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\System.Reflection.Metadata.dll
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\vbc.exe
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\vbc.exe.config
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\vbc.rsp
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\VBCSCompiler.exe
+D:\ASM\Backup\BookManage\BookManage\bin\roslyn\VBCSCompiler.exe.config
+D:\ASM\Backup\BookManage\BookManage\bin\Antlr3.Runtime.dll
+D:\ASM\Backup\BookManage\BookManage\bin\EntityFramework.dll
+D:\ASM\Backup\BookManage\BookManage\bin\EntityFramework.SqlServer.dll
+D:\ASM\Backup\BookManage\BookManage\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\ASM\Backup\BookManage\BookManage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ASM\Backup\BookManage\BookManage\bin\Microsoft.Web.Infrastructure.dll
+D:\ASM\Backup\BookManage\BookManage\bin\Newtonsoft.Json.dll
+D:\ASM\Backup\BookManage\BookManage\bin\PagedList.dll
+D:\ASM\Backup\BookManage\BookManage\bin\PagedList.Mvc.dll
+D:\ASM\Backup\BookManage\BookManage\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ASM\Backup\BookManage\BookManage\bin\System.Linq.Dynamic.dll
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.Helpers.dll
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.Mvc.dll
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.Optimization.dll
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.Razor.dll
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.WebPages.Deployment.dll
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.WebPages.dll
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.WebPages.Razor.dll
+D:\ASM\Backup\BookManage\BookManage\bin\WebGrease.dll
+D:\ASM\Backup\BookManage\BookManage\bin\EntityFramework.xml
+D:\ASM\Backup\BookManage\BookManage\bin\EntityFramework.SqlServer.xml
+D:\ASM\Backup\BookManage\BookManage\bin\PagedList.xml
+D:\ASM\Backup\BookManage\BookManage\bin\PagedList.Mvc.xml
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.Helpers.xml
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.Mvc.xml
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.Optimization.xml
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.Razor.xml
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.WebPages.xml
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.WebPages.Deployment.xml
+D:\ASM\Backup\BookManage\BookManage\bin\System.Web.WebPages.Razor.xml
+D:\ASM\Backup\BookManage\BookManage\bin\Newtonsoft.Json.xml
+D:\ASM\Backup\BookManage\BookManage\bin\Antlr3.Runtime.pdb
+D:\ASM\Backup\BookManage\BookManage\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ASM\Backup\BookManage\BookManage\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\ASM\Backup\BookManage\BookManage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ASM\Backup\BookManage\BookManage\obj\Debug\BookManage.csprojAssemblyReference.cache
+D:\ASM\Backup\BookManage\BookManage\obj\Debug\BookManage.csproj.CoreCompileInputs.cache
+D:\ASM\Backup\BookManage\BookManage\obj\Debug\BookManage.csproj.CopyComplete
+D:\ASM\Backup\BookManage\BookManage\obj\Debug\BookManage.dll
+D:\ASM\Backup\BookManage\BookManage\obj\Debug\BookManage.pdb
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\BookManage.dll.config
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\BookManage.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\BookManage.pdb
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\csc.exe
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\csc.exe.config
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\csc.rsp
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\csi.exe
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\csi.rsp
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\System.AppContext.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\vbc.exe
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\vbc.exe.config
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\vbc.rsp
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Antlr3.Runtime.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\EntityFramework.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\EntityFramework.SqlServer.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Newtonsoft.Json.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\PagedList.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\PagedList.Mvc.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Linq.Dynamic.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Helpers.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Mvc.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Optimization.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Razor.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.WebPages.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\WebGrease.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\EntityFramework.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\EntityFramework.SqlServer.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\PagedList.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\PagedList.Mvc.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Helpers.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Mvc.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Optimization.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Razor.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.WebPages.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Newtonsoft.Json.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Antlr3.Runtime.pdb
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.csprojAssemblyReference.cache
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.csproj.CoreCompileInputs.cache
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.csproj.CopyComplete
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.pdb
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Security.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Owin.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Security.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\bin\vi-VN\BookManage.resources.dll
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.Language.Resource.resources
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.Language.Resource.vi-VN.resources
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.csproj.GenerateResource.cache
+C:\Users\Asus VivoBook\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\vi-VN\BookManage.resources.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\BookManage.dll.config
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\BookManage.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\BookManage.pdb
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\vi-vn\BookManage.resources.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Owin.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\PagedList.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Linq.Dynamic.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\WebGrease.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\PagedList.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.Language.Resource.resources
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.Language.Resource.vi-vn.resources
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\vi-vn\BookManage.resources.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.csproj.CopyComplete
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.dll
+C:\Users\Admin\Desktop\BookManage (Final)\BookManage\BookManage\obj\Debug\BookManage.pdb

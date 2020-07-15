@@ -1,0 +1,75 @@
+﻿@model BookManage.Models.Book
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style>
+    .btncreate {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        color: white;
+    }
+    th {
+        background-color: #17aa67;
+        color: white;
+    }
+
+    table {
+        border: solid 1px white;
+    }
+
+    td {
+        background-color: white;
+    }
+</style>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="w3-container w3-brown">
+        <h2>DELETE BOOK</h2>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th> @Html.DisplayNameFor(model => model.BookId)</th>
+                <th> @Html.DisplayNameFor(model => model.Title)</th>
+                <th> @Html.DisplayNameFor(model => model.Price)</th>
+                <th> @Html.DisplayNameFor(model => model.Quantity)</th>
+                <th> @Html.DisplayNameFor(model => model.IsActive)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => model.BookId)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.IsActive)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="@Url.Action("Index","AdminCRUD")" class="btncreate"> Back</a>
+
+    <input type="submit" class="btncreate" onclick="return validateCreate()" style="width:130px; background-color:black" value="Delete" />
+
+}

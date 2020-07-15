@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="45ab89d46f1b4a4a982f795d1d484d6b" Name="Diagram1">
+        <EntityTypeShape EntityType="ASM_BookModel.Author" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.Book" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.Category" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.Comment" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.Publisher" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.User" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="ASM_BookModel.FK_Book_Author" ManuallyRouted="false" />
+        <AssociationConnector Association="ASM_BookModel.FK_Book_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="ASM_BookModel.FK_Book_Publisher" ManuallyRouted="false" />
+        <AssociationConnector Association="ASM_BookModel.FK_Comment_Book" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

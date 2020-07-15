@@ -1,0 +1,135 @@
+﻿.noidung {
+    display: inline-block;
+    width: 45%;
+}
+
+.anh {
+    padding: 20px;
+    display: inline-block;
+    width: 54%;
+}
+
+.baotrum {
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    height: 100%;
+}
+
+.anh img {
+    margin-top: -300px;
+    background-color: white;
+    width: 90%;
+    padding: 70px 0px;
+    border: 1px solid white;
+    border-radius: 100px 0px 100px 0px;
+    box-shadow: 15px 5px 10px 2px #8680a1;
+}
+
+#tenbook {
+    font-family:Georgia;
+    font-size: 32px;
+    padding: 10px;
+    border-bottom: solid 1px gray;
+}
+
+.agiabook {
+
+}
+
+.price {
+    font-family:none;
+    color: #f44336;
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+.nameauthor {
+    display: block;
+    padding: 5px 0px;
+    border-bottom: solid 1px gray;
+}
+
+#lbNXB {
+    padding-right: 100px;
+}
+
+.status {
+    margin-top: 10px;
+}
+#activetrue {
+    border-radius: 100px;
+    padding: 5px 20px;
+    text-align: center;
+    width: 100px;
+    background-color: lawngreen;
+}
+#activefalse {
+    color:white;
+    border-radius: 100px;
+    padding: 5px 20px;
+    text-align: center;
+    width: 100px;
+    background-color: red;
+}
+
+#tieudebook {
+    padding: 10px 0px;
+    border-bottom: solid 1px gray;
+}
+.buttom {
+    margin: 15px 0px;
+}
+
+#btn-right {
+    margin-right:3px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 63px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn-left {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 63px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#quantity
+{
+    color:white;
+    background-color:black;
+    padding:10px 5px;
+}
+#qty {
+    width:83%;
+    border:solid 1px black;
+    padding:10px 0px;
+    text-align: center;
+    background-color: #f5f7fa;
+    border: none;
+    -webkit-appearance: textfield;
+    color: #959595;
+}
+.quanty{
+    border-bottom:solid 1px gray;
+    padding-bottom:15px;
+    margin-top:20px;
+}
+.navhead:hover
+{
+    cursor:pointer;
+    text-decoration: none;
+}
+.navhead {
+    color: #4e9df7;
+}

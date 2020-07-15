@@ -1,0 +1,134 @@
+﻿
+.row1 {
+    padding-top: 14px;
+}
+
+.col-lg-2 {
+    display: inline-block;
+}
+
+.infoAuthor {
+    border-bottom: solid;
+    border-color: #808080;
+    background-color: #17aa67;
+    font-size: 1.09375rem;
+    color: white
+}
+.control-label{
+}
+.form-control1 {   
+    text-align: center;
+    display: block;
+    width: 130%;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #FFF;
+    background-clip: padding-box;
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+.control-img{
+    margin-left:0px;
+}
+.infoBook {
+    border-bottom: solid;
+    border-color: #808080;
+    background-color: #495057;
+    margin-bottom: 14px;
+    font-size: 1.09375rem;
+    color: white
+}
+.form-control{
+    margin-left:-55px;
+}
+.all {
+    font-size: 18px;
+    font-family: serif;
+    border-color: #495057;
+}
+
+.input-group {
+    width:92%;
+    border-radius:4px;
+}
+
+.btn-outline-dark {
+    border-radius: 4px;
+}
+
+.all {
+    border-style: solid;
+    border-color: #808080;
+    border-radius: 8px;
+}
+.all .label1{
+    margin-left:30%;
+      
+}
+.row5 {
+    border-bottom: solid 5px #17aa67;
+    border-width: 1px;
+}
+
+.img {
+    margin-top: 14px;
+}
+
+.SMR {
+    margin-top: 14px;
+}
+
+.area {
+    line-height: 2;
+    font-size: 14px;
+}
+#Summary{
+    width:100%;
+}
+.choose {
+    margin-top: 14px;
+}
+.form-control{
+width:189px;
+}
+.from-inline input[type="text"]{
+    display:inline-block;
+}
+.imgEdit {
+    background-color: white;
+    width: 250px;
+    padding: 30px 0px;
+    margin-top: 20px;
+}
+.btn_Choose {
+    padding:7px;
+    margin-top:10px;
+    border-radius: 3px;
+    border: 2px solid #17aa67;
+    color: #17aa67;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+}
+.btncreate {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#picture{
+    margin-left:0px;
+}

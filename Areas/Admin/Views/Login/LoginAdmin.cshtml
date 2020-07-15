@@ -1,0 +1,77 @@
+﻿@model BookManage.Models.User
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/Loginadminss.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>LoginAdmin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script>
+        function validateLogin() {
+            var x = document.forms["myForm"]["UserName"].value;
+            var y = document.forms["myForm"]["Password"].value;
+
+            if (x == "" || y == "") {
+                alert("You need enter Email and Password");
+                return false;
+            }
+        }
+        function disablelogin() {
+            document.getElementById("UserName").disabled = true;
+            document.getElementById("Password").disabled = true;
+        }
+
+    </script>
+  
+
+</head>
+<body>
+    <style>
+    </style>
+    <div class="login-ad">
+        <!--Sử dụng beginform truy vấn đến phường thức post-->
+        <form action="/Admin/Login/LoginAdmin" method="post" name="myForm">
+
+            <div class="icon">
+                <div class="icon1">
+                    <i class="fa fa-user" style="font-size:30px"></i>
+
+                </div>
+
+                @{if (ViewBag.error != null)
+                    {
+                        <p style="color:red">@ViewBag.error</p>
+                    }
+                    else if (ViewBag.error == null)
+                    {
+                        <p style="color:white">Hi there! Please Sign in</p>
+                    }
+                }
+
+
+
+            </div>
+            <div class="div-login">
+                <input class="input-validation-error text-box single-line" data-val="true" id="UserName" name="UserName" placeholder="Email" type="text" value="">
+            </div>
+            <div class="div-login">
+                <input class="input-validation-error text-box single-line" data-val="true" id="Password" name="Password" placeholder="Password" type="password" value="">
+            </div>
+            <div>
+            </div>
+            <div class="div-login">
+                <button id="btnlogin" onclick="return validateLogin()"><i class='fas fa-arrow-right' style="font-size:24px; color:white"></i></button>
+              
+            </div>
+           
+        </form>
+       
+        </div>
+</body>
+</html>

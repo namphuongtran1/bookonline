@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <!-- Open Graph Meta-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS-->
+    <link href="~/Content/mains.css" rel="stylesheet" />
+    <link href="~/Content/main2.css" rel="stylesheet" />
+    <!-- Font-icon css-->
+    <link href="~/Content/SiteS.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--them 2 casi nay-->
+    <link href="~/Content/StyleSheet10.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="app sidebar-mini rtl" style="font-size:0.820rem;font-family:Arial">
+    <!-- Navbar-->
+    <aside>
+
+        <nav class="navbar fixed-top">
+            <a class="navbar-brand" href="#" style="color:#fff">Book Management System</a>
+
+
+            <!--Notification Menu-->
+        </nav>
+    </aside>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+        <div class="app-sidebar__user">
+            
+            <img class="app-sidebar__user-avatar" style="width:20%" src="~/Images/bg-01.jpg" alt="User Image">
+            <div>
+                
+              
+              
+                <div>
+                    <p style="display:inline-block" class="app-sidebar__user-name">@Session["Username"]</p>
+                  
+                </div>
+                    <p style="display:inline-block" class="app-sidebar__user-designation">@Session["Email"]</p> 
+               
+
+            </div>
+        </div>
+        <ul class="app-menu">
+            <li><a class="app-menu__item" href="@Url.Action("Index")"><i class="app-menu__icon fa fa-home"></i><span class="app-menu__label" style="color:#13d37b">Main Page</span></a></li>
+
+            <li><a class="app-menu__item" href="@Url.Action("createCate","AdminCRUD")" data-toggle="treeview"><i class="app-menu__icon fa fa-tasks"></i><span class="app-menu__label">Category</span></a></li>
+            <li><a class="app-menu__item" href="@Url.Action("createAuthor","AdminCRUD")" data-toggle="treeview"><i class="app-menu__icon fa fa-address-book"></i><span class="app-menu__label">Author Management</span></a></li>
+            <li><a class="app-menu__item" href="@Url.Action("createPub","AdminCRUD")" data-toggle="treeview"><i class="app-menu__icon fa fa-suitcase"></i><span class="app-menu__label">Publishing Company</span></a></li>
+            <li><a class="app-menu__item" href="@Url.Action("Index","AdminCRUD")" data-toggle="treeview"><i class="app-menu__icon fa fa-book"></i><span class="app-menu__label">Book Management</span></a></li>
+            <li><a class="app-menu__item" href="@Url.Action("LoginAdmin","Login")" data-toggle="treeview"><i class="app-menu__icon fa fa-sign-out"></i><span class="app-menu__label">Exit</span></a></li>
+            <li>
+                <a class="app-menu__item" href="@Url.Action("Home","Home")" data-toggle="treeview"><i class='fas fa-arrow-right' style="font-size:24px; color:white"></i><span class="app-menu__label">Home</span></a>
+            </li>
+                
+           
+
+        </ul>
+    </aside>
+    <main class="app-content">
+        @RenderBody()
+    </main>
+
+    <!-- Essential javascripts for application to work-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="js/plugins/pace.min.js"></script>
+    <!-- Page specific javascripts-->
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    @RenderSection("upload", required: false)
+
+</body>
+</html>

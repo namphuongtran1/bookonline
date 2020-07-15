@@ -1,0 +1,20 @@
+﻿
+@using BookManage.Models
+@model List<Book>
+
+<h6>@BookManage.Language.Resource.ispecial</h6>
+<hr />
+@foreach (var item in Model)
+{
+    <a href="/Chitiet/ChitietBook?BookId=@item.BookId" style="text-decoration:none;">
+        <div id="sanpham">
+            <div id="anhbia"><img src="~/Images/@item.ImgUrl" /></div>
+            <div id="tensach">@item.Title</div>
+            <div id="tieude">@item.Author.AuthorName</div>
+            <div class="price">
+                <a class="agia">$@item.Price.00</a><a href="~/Views/GioHang/GioHang.cshtml" id="icon"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        </a>
+}
+

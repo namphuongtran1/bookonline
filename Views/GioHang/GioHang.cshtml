@@ -1,0 +1,142 @@
+﻿
+@using BookManage.Models
+@model IEnumerable<SamPhamGH>
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+@*@section Meta{
+        <meta property="og:title" content="Giỏ hàng của bạn" />
+        <meta property="og:description" content="Giỏ hàng của bạn" />
+        <meta name="keywords" content="Giỏ hàng của bạn" />
+        <meta name="description" content="Giỏ hàng của bạn" />
+    }*@
+<link href="~/Content/GioHang1.css" rel="stylesheet" />
+<input id="MaSach1" type="text" style="visibility:hidden" />
+<h1 style="border-bottom:solid 1px; padding:5px 5px 5px 5px;">
+    Your cart:
+</h1>
+<br />
+<form action="/Giohang/GioHang" method="post">
+    <div class="Cart-info">
+        <table>
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>
+                        Product Picture
+                    </td>
+                    <td> Product Name</td>
+                    <td>
+                        The Number Of Products
+                    </td>
+                    <td>Money</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <tbody>
+                @{double TongTien = 0; }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><input disabled type="text" value="@item.BookId" id="MaSach" name="MaSach"></td>
+                        <td><a href="~/ViewSP/ChiTietSanPham?MaSp=@item.BookId"><img src="~/Images/@item.ImgUrl" /></a></td>
+                        <td>@item.Title</td>
+                        <td><input type="text" id="@item.BookId" class="txtSLGH" value="@item.SoLuongMua" /><a class="fa fa-upload btn-Update" onclick="CapNhat(@item.BookId)" aria-hidden="true"></a><a class="fa fa-trash-o btn-Delete" aria-hidden="true" onclick="XoaSP(@item.BookId)"></a></td>
+                        <td><span id="DonGia"> @string.Format("{0:0,0}", item.Price)</span></td>
+                        <td>@string.Format("{0:0,0}", item.TongTien)</td>
+                    </tr>
+                    TongTien += @item.Price * @item.SoLuongMua;
+                }
+
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <div id="ThanhToan">
+        <br />
+        <div id="frm-thanhtoan">
+            <p>Go To Pay</p>
+            <table>
+                <tbody>
+                    @foreach (var dg in (IList<User>)ViewData["listKH"])
+                    {
+                        <tr>
+                            <td>
+                                Recipient's Name
+                            </td>
+                            <td><input type="text" name="tennguoinhan" id="tennguoinhan" value="@dg.UserName"/></td>
+                        </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td><input type="text" name="diachinhanhang" id="diachinhanhang" value="@dg.DiaChi"/></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="text" name="dienthoainhanhang" id="dienthoainhanhang"value="@dg.DienThoaiKH" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>Receiving Time</td>
+                        <td>
+                            <div id="ngaynhanhang">
+                                <script type="text/javascript">
+                                    var day = new Date();
+                                    var d = day.getDate() + 5;
+                                    var m = day.getMonth() + 1;
+                                    var y = day.getFullYear();
+                                    document.getElementById('ngaynhanhang').innerHTML = + d + "/" + m + "/" + y;
+                                </script>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Total: @TongTien $</td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+            <input type="submit" value="Oder" />
+        </div>
+    </div>
+</form>
+<form action="/GioHang/MaGiam">
+
+    <h3>Sale Code</h3>
+    <input type="text" placeholder="Nhập tại đây" name="magiam" />
+    <input type="submit" style="" class="magiamgia" value="Fill" />
+    @if (Session["MaGiam"] != null)
+    {
+        <div style="width:30%; margin-top:5px" class="alert alert-success" role="alert">
+            Code trị giá @Session["MaGiam"]%: <del>@ViewBag.tongtien VNĐ</del> - @Session["TongTien"] VNĐ
+        </div>
+
+    }
+    else if (Session["soluongma"] != null)
+    {
+        <div style="width:30%; margin-top:5px" class="alert alert-danger" role="alert">
+            Code hết hạn.
+        </div>
+    }
+    <small style="visibility:hidden" id="soluongma">@Session["soluongma"]</small>
+</form>
+<br />
+<div id="TongTien">
+    <h4>ToTal:<span id="tongtien">@Session["TongTien"]</span>$</h4><p style="float:right;"><input id="ThanhToan" onclick="ThanhToan();" type="button" value="Solve" style="color:white; background-color:red;border-radius:3px;border-color:red;padding:10px 10px 10px 10px; font-size:15px;" /></p>
+</div>
+
+
+<script type="text/javascript">
+    function ThanhToan() {
+        if ($('#MaSach').val() != null) {
+            $('#frm-thanhtoan').css('display', 'block');
+            $('#TongTien').css('display', 'none');
+        }
+        else {
+            alert("Vui lòng chọn sách cần mua trước khi thanh toán!")
+        }
+    }
+</script>
+

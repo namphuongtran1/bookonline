@@ -1,0 +1,313 @@
+﻿@model BookManage.Models.Book
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<link href="~/Content/EditAdmin.css" rel="stylesheet" />
+<style>
+    .frmauthor {
+        font-family: serif;
+    }
+
+    .btncreate {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        color: white;
+    }
+
+    table {
+        text-align: center;
+    }
+
+    th {
+        color: white;
+        background-color: #17aa67;
+    }
+</style>
+@*-------------------------------------*@
+@using (Html.BeginForm())
+{
+    
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <h4 style="font-family:serif">Book Editting</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.BookId)
+
+
+        <!–---------------------------PHẦN ĐẦU------------------------------–>
+        <div class="all" style="font-family:serif">
+           
+              
+                    
+                        <div class="text">
+                            @Html.EditorFor(model => model.AuthorId, new { htmlAttributes = new { @class = "form-control", @style = "display: none" } })
+                            @Html.ValidationMessageFor(model => model.AuthorId, "", new { @class = "text-danger" })
+                        </div>
+                   
+
+                  
+                    <div class="col-md-1 col-lg-2">
+                        @Html.EditorFor(model => model.PubId, new { htmlAttributes = new { @class = "form-control", @style = "display: none" } })
+                        @Html.ValidationMessageFor(model => model.PubId, "", new { @class = "text-danger" })
+                    </div>
+      
+
+
+            <!–---------------------------PHẦN HAI------------------------------–>
+
+
+            <div class="two" style="margin-top:-27px">
+                <div class="infoBook">
+                    <label style="margin-top:6px; margin-left:10px">Info Book</label>
+                </div>
+
+                <!–---------------------------ROW 2------------------------------–>
+                <div class="row2">
+
+                    <div class="col-md-3 col-lg-2">
+                        <div class="form-group">
+                            <label class="control-label">BookId</label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2">
+                        <div class="form-group">
+                            @Html.EditorFor(model => model.BookId, new { htmlAttributes = new { @class = "form-control", disabled="disabled"  } })
+                            @Html.ValidationMessageFor(model => model.BookId, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 col-lg-2">
+                        <div class="form-group">
+                            <label class="control-label">Title</label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2">
+                        <div class="form-group">
+                            @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+
+
+                <!–---------------------------ROW 3------------------------------–>
+
+
+                <div class="row3">                  
+                    <div class="col-md-1 col-lg-2" style="position:absolute">
+                        <div class="form-group">
+                            @Html.EditorFor(model => model.CateId, new { htmlAttributes = new { @class = "form-control", @style = "display: none" } })
+                            @Html.ValidationMessageFor(model => model.CateId, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-lg-2">
+                        <div class="form-group">
+                            <label class="control-label">Quantity</label>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-lg-2">
+                        <div class="form-group">
+                            @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-1 col-lg-2">
+                        <div class="form-group">
+                            <label class="control-label">Price</label>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-lg-2">
+                        <div class="form-group">
+                            @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+
+                <!–---------------------------ROW 4------------------------------–>
+
+                <div class="row4">
+
+
+
+
+                    <div class="col-md-1 col-lg-2">
+                        <div class="form-group">
+                            <label class="control-label">CreatedDate</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1 col-lg-2">
+                        <div class="form-group">
+                            <div class="input-group date">
+                                @Html.EditorFor(model => model.CreatedDate, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+                                @Html.ValidationMessageFor(model => model.CreatedDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1 col-lg-2">
+                        <div class="form-group">
+                            <label class="control-label">IsActive</label>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-lg-2">
+                        <div class="form-group">
+
+                            @Html.EditorFor(model => model.IsActive, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+                            @Html.ValidationMessageFor(model => model.IsActive, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+
+                <!–---------------------------ROW 5------------------------------–>
+
+                <div class="row5">
+                    <div class="col-md-1 col-lg-2">
+                        <div class="form-group">
+                            <label class="control-label">ModifiedDate</label>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-1 col-lg-2">
+                        <div class="form-group">
+
+                            <div class="input-group date">
+                                @Html.EditorFor(model => model.ModifiedDate, new { htmlAttributes = new { @class = "form-control", @type = "date" } })
+                                @Html.ValidationMessageFor(model => model.ModifiedDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <!–---------------------------SUMMARY------------------------------–>
+                <div class="SMR">
+                    <div class="col-md-1 col-lg-12">
+                        <div class="form-group">
+                            <label class="control-label">Summary</label>
+                            <div class="area">
+                                @Html.TextAreaFor(model => model.Summary, 10, 80, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Summary, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!–---------------------------IMG------------------------------–>
+                <div class="img" style="height:435px">
+                    <div class="row6">
+                        <div class="col-md-1 col-lg-5">
+                            <div class="form-group">
+                                <label class="control-label">ImgUrl</label>
+                                @*<div class="choose">
+            @*Html.EditorFor(model => model.ImgUrl, new { htmlAttributes = new { @class = "form-control1", @id = "ima", @type = "file" } })
+        </div>*@
+                                @*<div class="form-group">
+
+            @Html.EditorFor(model => model.ImgUrl, new { htmlAttributes = new { @class = "form-control"} })
+            @Html.ValidationMessageFor(model => model.IsActive, "", new { @class = "text-danger" })
+        </div>*@
+                                @*<div class="imgedit" style="background-color: white;width: 250px;padding: 40px 0px;">
+
+        </div>
+        <div class="textimg">
+            @Html.DisplayFor(model => model.ImgUrl)
+        </div>*@
+                                @section upload
+  {S
+                                    <script>
+                                        $(function () {
+                                            //đăng ký sự kiện click nút btnUpload
+                                            $('#btnUpload').click(function () {
+                                                $('#fileUpload').trigger('click');
+
+                                            });
+                                            // Bắt sự kiện change data của file Upload
+                                            $('#fileUpload').change(function () {
+                                                //Kiểm tra trình duyệt có hỗ trợ FormData object không.
+                                                if (window.FormData !== undefined) {
+                                                    //lấy dữ liệu trên fileUpload
+                                                    var fileUpload = $("#fileUpload").get(0);
+                                                    var files = fileUpload.files;
+                                                    //tạo đối tượng formdata
+                                                    var formData = new FormData();
+                                                    //đưa dữ liệu vào form
+                                                    formData.append('file', files[0]);
+                                                    $.ajax(
+                                                        {
+                                                            type: 'POST',
+                                                            url: '/AdminCRUD/UploadEdit',
+                                                            contentType: false,
+                                                            processData: false,
+                                                            data: formData,
+                                                            success: function (urlImage) {
+                                                                $('#pictureUpload').attr('src', urlImage);
+                                                                $('#picture').val(urlImage);
+
+                                                            },
+                                                            error: function (err) {
+                                                                alert('co loi khi upload:' + err.statusText);
+                                                            }
+                                                        });
+
+                                                }
+                                            });
+                                        });
+                                    </script>
+
+                                }
+                                <div class="from-inline">
+                                    @Html.EditorFor(model => model.ImgUrl, new { htmlAttributes = new { @class = "form-control", id = "picture", name = "picture" } })
+                                    @Html.ValidationMessageFor(model => model.IsActive, "", new { @class = "text-danger" })
+
+                                    <input type="file" id="fileUpload" name="fileUpload" style="display:none;" />
+                                    <input type="button" id="btnUpload" value="Picture" class="btn_Choose" style="display:inline-block" />
+                                </div>
+                                <div class="imgEdit">
+                                    <img src="~/Images/@ViewBag.imgurl" width="250px" name="ImgUrl" />
+                                </div>
+                            </div>
+                                <br />
+                                <br />
+                                <div class="from-inline">
+                                    <input type="text" name="picture" id="picture" style="display:none;" />
+
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <a href="@Url.Action("Index","AdminCRUD")" class="btncreate"> Back</a>
+
+                        <input type="submit" class="btncreate"  style="width:130px; background-color:#17aa67" value="Save" />
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+}

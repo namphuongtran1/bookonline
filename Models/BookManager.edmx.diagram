@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4ce9107b842d4cf586ae6a4623946af8" Name="Diagram1">
+        <EntityTypeShape EntityType="ASM_BookModel.Author" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.Book" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.Category" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.Comment" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.CTDONHANG" Width="1.5" PointX="8.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.DONDATHANG" Width="1.5" PointX="6" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.GiamGia" Width="1.5" PointX="8.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.Publisher" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.User" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASM_BookModel.Admin" Width="1.5" PointX="8.75" PointY="10" IsExpanded="true" />
+        <AssociationConnector Association="ASM_BookModel.FK_Book_Author" ManuallyRouted="false" />
+        <AssociationConnector Association="ASM_BookModel.FK_Book_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="ASM_BookModel.FK_Book_Publisher" ManuallyRouted="false" />
+        <AssociationConnector Association="ASM_BookModel.FK_Comment_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="ASM_BookModel.FK_CTDONHANG_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="ASM_BookModel.FK_Comment_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ASM_BookModel.FK_CTDONHANG_DONDATHANG" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

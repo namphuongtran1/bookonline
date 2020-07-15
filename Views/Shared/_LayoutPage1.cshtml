@@ -1,0 +1,121 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>RealBook</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="BookManage.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+          integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Content/Layout.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="~/Scripts/GioHang.js"></script>
+    <script src="~/Scripts/CmtJSCRITP.js"></script>
+    <script type="text/javascript"></script>
+    <script>
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</head>
+<body>
+    <nav>
+        <div class="topnav">
+            <a class="active" href="@Url.Action("Home","Home")">Home</a>
+            <a href="/GioHang/GioHang">CART</a>
+            <a href="@Url.Action("Index","SSO")">LOGIN</a>
+            <a href="@Url.Action("SignOut","SSO")">LOGOUT</a>
+            <a href="#"> @User.Identity.Name</a>
+                
+            <a href="/GioHang/GioHang" class="rightz">
+                <i class='fas fa-shopping-cart'></i><i class='fas fa-angle-down'></i>
+            </a>
+
+            <a class="rightz" href="@Url.Action("Index","Admin/AdminCRUD")">ADMIN</a>
+        </div>
+        <hr>
+
+    </nav>
+    <header>
+        <div class="logo">
+            <a href="@Url.Action("Home","Home")"><img src="~/Images/logobooks.png" alt=""></a>
+           
+        </div>
+        <div class="search-container">
+            <form action="#">
+                <input type="text" placeholder="" name="search" />
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </header>
+    <aside>
+        <div class="content">
+            <div class="buttonhead">
+                <a href="/Chitiet/ChudeBook?CateID=1" class="button" style="margin-left: 0;" id="btnfirst">Biography</a>
+                <a href="/Chitiet/ChudeBook?CateID=2" class="button">Fiction</a>
+                <a href="/Chitiet/ChudeBook?CateID=3" class="button">Health & Fitness</a>
+                <a href="/Chitiet/ChudeBook?CateID=4" class="button">History</a>
+                <a href="/Chitiet/ChudeBook?CateID=5" class="button">Mystery</a>
+                <a href="/Chitiet/ChudeBook?CateID=6" class="button">Politics & Current Affairs</a>
+                <a href="/Chitiet/ChudeBook?CateID=7" class="button">Relligion</a>
+                <a href="/Chitiet/ChudeBook?CateID=8" class="button" id="btnfinish">SALE</a>
+            </div>
+        </div>
+      
+        <div class="content-book">
+            @RenderBody()
+        </div>
+    </aside>
+    <div class="headfooter">
+        <a href="#" class="vv">INFORMATION</a>
+        <a href="#" class="ZZ">COSTOMER SERVICE</a>
+        <a href="#" class="ZZ">HOME</a>
+        <a href="#" class="nn">ABOUT</a>
+    </div>
+   
+    <div class="contact">
+        <div class="gotop">
+            <i onclick="topFunction()" id="myIc" class="fa fa-arrow-circle-o-up" style="font-size:24px"></i>
+        </div>
+    </div>
+    <div class="contact1">
+
+    </div>
+    <div class="texxxt">
+        <div class="p"><p>POWERED BY OPENCART REALBOOK © 2004</p></div>
+        <div class="pp"><p>PayPal</p></div>
+        <div class="ppp">
+            <div class="link">
+                <i class="fa fa-facebook-f" style="font-size:20px"></i>
+                <i class="fa fa-google-plus" style="font-size:20px"></i>
+                <i class="fa fa-rss" style="font-size:20px"></i>
+                <i class="fa fa-instagram" style="font-size:20px"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+    </body>
+</html>
